@@ -24,7 +24,7 @@ Do not show slides, do not show code. Do not show the sign up / login process un
 
 Upload your video to Youtube and include it in README.md. The presentation is going to determine who gets to present at the final lecture.
 
-Furthermore, please also fill in this Google Form (link will be provided later) to be eligible to be selected for the Presentation bonus.
+Furthermore, please also fill in this [Google Form](https://forms.gle/rHLfeW6xUNQ8vcKz5) to be eligible to be selected for the Presentation bonus.
 
 ## Final Lecture Presentation (1%-10% bonus)
 

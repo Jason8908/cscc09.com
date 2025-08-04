@@ -18,3 +18,12 @@ YourPortfolio is an AI-powered resume and cover letter generator that helps job 
 - User profile management for skills, experience, and interests
 - Google OAuth 2.0 authentication
 - Credit system with Stripe payment integration
+
+## Technical Implementation
+
+- **Frontend**: Angular
+- **Backend**: ExpressJS
+- **Database**: PostgreSQL hosted on Google Cloud
+- **AI Integration**: Google Gemini API
+- **Authentication**: OAuth 2.0 with Google accounts
+- **Payment Processing**: Stripe

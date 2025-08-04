@@ -17,3 +17,8 @@ export interface CourseworkAttributes extends FileAttributes {
   dueDate: Date;
   pin: boolean;
 }
+
+export interface ProjectAttributes extends FileAttributes {
+  groupName: string;
+  groupMembers: string[];
+}

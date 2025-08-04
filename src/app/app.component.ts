@@ -208,6 +208,10 @@ export class AppComponent {
       path: "/resources",
     },
     {
+      name: "Projects",
+      path: "/projects",
+    },
+    {
       name: "Team",
       path: "/team",
     },

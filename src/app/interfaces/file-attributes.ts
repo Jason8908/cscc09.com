@@ -21,4 +21,5 @@ export interface CourseworkAttributes extends FileAttributes {
 export interface ProjectAttributes extends FileAttributes {
   groupName: string;
   groupMembers: string[];
+  youtubeLink?: string;
 }

@@ -5,6 +5,7 @@ description: <Your Description>
 groupMembers:
   - John Doe
   - Jane Doe
+youtubeLink: <Your YouTube Presentation Link>
 ---
 
 Here you can write a longer description about your project. You can include [links](https://www.google.com) to your GitHub repositories or live deployed versions of your project. Make sure the links are up so students can access them in the future!

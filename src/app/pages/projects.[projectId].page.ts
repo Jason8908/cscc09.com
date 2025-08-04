@@ -118,6 +118,40 @@ import { getMeta } from "../meta/route-meta";
         margin-bottom: 0.5em;
       }
 
+      .project-video {
+        margin: 2em 0;
+      }
+
+      .video-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #f8fafc;
+        margin-bottom: 1em;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+      }
+
+      .video-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5em;
+        color: #90cdf4;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        background: rgba(66, 153, 225, 0.1);
+        border: 1px solid rgba(66, 153, 225, 0.2);
+        border-radius: 6px;
+        transition: all 0.2s ease;
+        font-size: 14px;
+      }
+
+      .video-link:hover {
+        background: rgba(66, 153, 225, 0.2);
+        border-color: rgba(66, 153, 225, 0.3);
+        transform: translateY(-1px);
+      }
+
       @media (max-width: 768px) {
         .container {
           padding: 0 0.5em;
@@ -156,6 +190,18 @@ import { getMeta } from "../meta/route-meta";
                 <span class="member-tag">{{ member }}</span>
               }
             </div>
+          </div>
+        }
+        @if (project.attributes.youtubeLink) {
+          <div class="project-video">
+            <div class="video-title">Final Presentation Video</div>
+            <a
+              [href]="project.attributes.youtubeLink"
+              target="_blank"
+              class="video-link"
+            >
+              Watch on YouTube
+            </a>
           </div>
         }
         <div class="project-content">

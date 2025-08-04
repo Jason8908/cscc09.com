@@ -70,6 +70,7 @@ cd cscc09.com
    - Replace `<Your Project Name>` with your project title
    - Replace `<Your Description>` with a brief description (max 150 characters for the card view)
    - Update the `groupMembers` list with your team members' names
+   - Replace `<Your YouTube Presentation Link>` with your final presentation video URL
    - Write a detailed description in the markdown section below the frontmatter
 
 ### File Naming Requirements
@@ -98,6 +99,7 @@ groupMembers:
   - Alice Johnson
   - Bob Smith
   - Carol Davis
+youtubeLink: https://www.youtube.com/watch?v=your-video-id
 ---
 
 Here you can write a longer description about your project. You can include [links](https://github.com/your-repo) to your GitHub repositories or live deployed versions of your project.
@@ -131,7 +133,7 @@ Here you can write a longer description about your project. You can include [lin
 
 ```shell
 git add src/content/projects/your-project-name.md
-git commit -m "feat: added project <your project name> to projects page</your>"
+git commit -m "feat: added project <your project name> to projects page"
 git push origin main
 ```
 
